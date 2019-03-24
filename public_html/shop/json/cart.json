@@ -1,0 +1,28 @@
+{
+  "contents": [
+    {
+      "id": "1",
+      "src": "img/products/product1.jpg",
+      "price": "150",
+      "color": "black",
+      "quantity": "2",
+      "shipping": "FREE"
+    },
+    {
+      "id": "2",
+      "src": "img/products/product2.jpg",
+      "price": "150",
+      "color": "brown",
+      "quantity": "1",
+      "shipping": "FREE"
+    },
+    {
+      "id": "8",
+      "src": "img/products/product8.jpg",
+      "price": "150",
+      "color": "dark green",
+      "quantity": "1",
+      "shipping": "FREE"
+    }
+  ]
+}

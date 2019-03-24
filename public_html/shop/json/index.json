@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "src": "img/mango1.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "4.5"
+  },
+  {
+    "id": "2",
+    "src": "img/mango2.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "5"
+  },
+  {
+    "id": "3",
+    "src": "img/mango3.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "3"
+  },
+  {
+    "id": "4",
+    "src": "img/mango4.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  },
+  {
+    "id": "5",
+    "src": "img/mango5.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  },
+  {
+    "id": "6",
+    "src": "img/mango6.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "3.5"
+  },
+  {
+    "id": "7",
+    "src": "img/mango7.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  },
+  {
+    "id": "8",
+    "src": "img/mango8.jpg",
+    "price": "52",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  }
+]

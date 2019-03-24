@@ -1,0 +1,64 @@
+#tikTakToe {
+    margin: 50px auto 50px auto;
+    border-collapse: collapse;
+}
+
+#tikTakToe td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+}
+
+.game-info {
+    text-align: center;
+    color: #d45e5e;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 0 15px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    color: #222222;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #d45e5e;
+}
+
+@media screen and (max-width: 768px){
+    .btns {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+    }
+
+    #tikTakToe td {
+        width: 80px;
+        height: 80px;
+        font-size: 3.5rem;
+    }
+}

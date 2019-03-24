@@ -1,0 +1,1 @@
+<a href="{{SRC}}" target="_blank"><img src="{{SRC}}"></a>

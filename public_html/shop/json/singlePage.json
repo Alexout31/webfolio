@@ -1,0 +1,30 @@
+[
+  {
+    "id": "18",
+    "src": "img/blaze-leggings.jpg",
+    "price": "125",
+    "text": "mango people t-shirt",
+    "rating": "5"
+  },
+  {
+    "id": "19",
+    "src": "img/alexa-sweater.jpg",
+    "price": "99",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  },
+  {
+    "id": "20",
+    "src": "img/agnes-top.jpg",
+    "price": "55",
+    "text": "mango people t-shirt",
+    "rating": "4"
+  },
+  {
+    "id": "21",
+    "src": "img/sylva-sweater.jpg",
+    "price": "79",
+    "text": "mango people t-shirt",
+    "rating": "4.5"
+  }
+]

@@ -1,0 +1,305 @@
+html {
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo a h1 {
+    font-family: "BebasNeue";
+    font-size: 2.25rem;
+    line-height: 19px;
+    font-weight: 600;
+    color: #404040;
+    text-transform: uppercase;
+    margin: 39px 0 0 0;
+}
+
+.logo a h1:hover {
+    color: #d45e5e;
+}
+
+.logo a p {
+    font-size: 0.9rem;
+    line-height: 19px;
+    font-weight: 400;
+    color: #404040;
+    margin: 12px 0 0 0;
+}
+
+.line {
+    display: none;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    height: 94px;
+    margin: 0;
+}
+
+.nav-menu li {
+
+}
+
+.nav-menu li a {
+    display: block;
+    text-decoration: none;
+    font-family: "Open Sans Condensed-Light";
+    font-size: 1rem;
+    line-height: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #404040;
+    padding: 52px 10px 11px 10px;
+}
+
+.nav-menu li a:hover {
+    background-color: #d45e5e;
+    color: #ffffff;
+}
+
+.clr {
+    height: 500px;
+}
+
+.footer {
+    max-width: 1280px;
+    height: 390px;
+    margin: -390px auto 0 auto;
+}
+
+.personal-info a:hover .my-photo {
+    transform: scale(1.2);
+    outline-width: 1px;
+    transition: 1s;
+}
+
+.my-info {
+    background-color: #d45e5e;
+    display: flex;
+    justify-content: space-around;
+    min-height: 350px;
+}
+
+.info {
+    color: #ffffff;
+    font-family: "PT Sans";
+}
+
+.personal-info {
+    display: flex;
+}
+
+.my-photo {
+    width: 123px;
+    height: 123px;
+    outline: 7px solid #ffffff;
+    margin-top: -57px;
+}
+
+.my-name-direction {
+    margin-left: 28px;
+}
+
+.my-name-direction a {
+    text-decoration: none;
+}
+
+.my-name-direction a:hover {
+    opacity: 0.5;
+}
+
+.my-name {
+    font-size: 1.4rem;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+}
+
+.my-direction {
+    font-size: 0.7rem;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.text-info {
+    max-width: 586px;
+    margin: 20px 0 30px 0;
+}
+
+.text-info p {
+    margin: 0;
+}
+
+.text-info p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.text-info p a:hover {
+    opacity: 0.5;
+}
+
+.line-footer {
+    display: none;
+}
+
+.my-skills {
+    font-family: "PT Sans";
+    color: #ffffff;
+    margin-top: 45px;
+}
+
+.my-skills h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 35px 0;
+}
+
+.single-skill p {
+    margin: 0;
+    width: 60px;
+}
+
+.single-skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.scale {
+    width: 200px;
+    height: 10px;
+    background-color: #e27878;
+}
+
+.scale span {
+    display: block;
+    height: 10px;
+    background-color: #282828;
+}
+
+.copyright {
+    height: 40px;
+    background-color: #282828;
+}
+
+.copyright .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.copyright .container p {
+    margin: 0;
+    font-family: "PT Sans";
+    font-size: 0.8rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-left: 35px;
+    }
+
+    .line {
+        display: flex;
+        max-width: 720px;
+        height: 1px;
+        background-color: #d0d0d0;
+        margin: 23px 24px 15px 24px;
+    }
+
+    .nav-menu {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .nav-menu li a {
+        padding: 15px;
+    }
+
+    .my-info {
+        flex-direction: column;
+    }
+
+    .my-name {
+        margin: 10px 0 0 0;
+    }
+
+    .text-info {
+        margin: 10px auto 30px auto;
+    }
+
+    .personal-info {
+        margin-left: 75px;
+    }
+
+    .line-footer {
+        display: block;
+        max-width: 768px;
+        height: 1px;
+        background-color: #ffffff;
+    }
+
+    .my-skills {
+        margin: 30px 0 10px 50px;
+    }
+
+    .my-skills h3 {
+        margin-bottom: 20px;
+    }
+
+    .copyright .container p {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .personal-info {
+        margin-left: 10px;
+    }
+
+    .my-skills {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .copyright .container {
+        justify-content: center;
+    }
+
+    .copyright .container p {
+        margin-right: 0;
+    }
+}
