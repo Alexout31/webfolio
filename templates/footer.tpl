@@ -19,6 +19,8 @@
                 программирования с языка C#, но решил развиваться как Web-разработчик!<br> <br>
                 На этом сайте я разместил проект <a href="shop/index.html" target="_blank">интернет-магазина
                     (Frontend)</a>, а так же другие работы.</p>
+            <br>
+            <a class="git" href="https://github.com/Alexout31/webfolio" target="_blank">Код сайта на GitHub</a>
         </div>
     </div>
     <div class="line-footer"></div>

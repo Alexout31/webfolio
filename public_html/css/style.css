@@ -150,6 +150,15 @@ body {
     margin: 0;
 }
 
+.git {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.git:hover {
+    opacity: 0.5;
+}
+
 .text-info p a{
     text-decoration: none;
     color: #ffffff;
